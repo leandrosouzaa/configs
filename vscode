@@ -1,0 +1,81 @@
+{
+    // Configuração do VSCode (estético)
+    "workbench.colorTheme": "Dracula",
+
+    "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}",
+    "window.titleBarStyle": "custom",
+
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.startupEditor": "newUntitledFile",
+
+    // Configuração do Terminal
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontFamily": "Fira code",
+
+    // Configuração do Editor
+
+    "editor.tabSize": 3,
+    "editor.fontSize": 15,
+    "editor.lineHeight": 24,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+
+    "explorer.compactFolders": false,
+    "editor.renderLineHighlight": "gutter",
+    "workbench.editor.labelFormat": "short",
+    "extensions.ignoreRecommendations": false,
+
+    "javascript.updateImportsOnFileMove.enabled": "never",
+
+    "breadcrumbs.enabled": true,
+    "editor.parameterHints.enabled": false,
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    
+    "editor.rulers": [80, 120],
+
+    // Configuração por Linguagem/Framework
+    "[javascript]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true 
+        }
+    },
+
+    "[javascriptreact]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true 
+        }
+    },
+
+    "[typescript]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true 
+        }
+    },
+
+    "[typescriptreact]": {
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true 
+        }
+    },
+
+    "files.associations": {
+        ".sequelizerc": "javascript",
+        ".stylelintrc": "json",
+        ".prettierrc": "json"
+    },
+
+    "emmet.syntaxProfiles": {"javascript":"jsx"},
+    "emmet.includeLanguages": {"javascript":"javascriptreact"},
+
+    // Git Lens
+    "gitlens.codeLens.recentChange.enabled": true,
+    "gitlens.codeLens.authors.enabled": false,
+    "gitlens.codeLens.enabled": false,
+
+    "git.enableSmartCommit": true,
+    
+
+
+}
