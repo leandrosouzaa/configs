@@ -8,9 +8,13 @@
     "workbench.iconTheme": "material-icon-theme",
     "workbench.startupEditor": "newUntitledFile",
 
+    "vs-color-picker.autoLaunch": true,
+    "vs-color-picker.autoLaunchDelay": 50,
+
     // Configuração do Terminal
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.fontFamily": "Fira code",
+
 
     // Configuração do Editor
 
@@ -75,6 +79,11 @@
     "gitlens.codeLens.enabled": false,
 
     "git.enableSmartCommit": true,
+
+    "editor.codeActionsOnSave": [
+        "source.organizeImports",
+    ]
+    
     
 
 
