@@ -82,7 +82,8 @@
 
     "editor.codeActionsOnSave": [
         "source.organizeImports",
-    ]
+    ],
+    "window.zoomLevel": 0
     
     
 
