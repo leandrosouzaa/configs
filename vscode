@@ -83,9 +83,27 @@
     "editor.codeActionsOnSave": [
         "source.organizeImports",
     ],
-    "window.zoomLevel": 0
+    "window.zoomLevel": 0,
     
-    
+    "material-icon-theme.folders.associations":{
+        "infra": "app",
+        "entities": "class",
+        "schemas": "class",
+        "typeorm": "database",
+        "http":"container",
+        "migrations":"tools",
+        "modules":"components",
+        "implementations":"core",
+        "dtos": "typescript",
+        "fakes":"mock",
+        "repositories": "mappings",
+
+    },    
+
+    "material-icon-theme.files.associations": {
+        "ormconfig.json":"database",
+        "tsconfig": "tune",
+    },
 
 
 }
