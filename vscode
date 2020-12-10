@@ -1,6 +1,6 @@
 {
     // Configuração do VSCode (estético)
-    "workbench.colorTheme": "Dracula",
+    "workbench.colorTheme": "Andromeda",
 
     "window.title": "${dirty}${activeEditorShort}${separator}${rootName}${separator}",
     "window.titleBarStyle": "custom",
@@ -97,13 +97,20 @@
         "dtos": "typescript",
         "fakes":"mock",
         "repositories": "mappings",
-
+        "protocols": "typescript",
+        "presentation":"app",
+        "usecases": "mappings",
+        "domain":"components",
+        "*-repository": "mappings",
+        "main":  "container"
     },    
 
     "material-icon-theme.files.associations": {
         "ormconfig.json":"database",
         "tsconfig": "tune",
     },
+    "liveServer.settings.donotShowInfoMsg": true,
+    "C_Cpp.updateChannel": "Insiders",
 
 
 }
